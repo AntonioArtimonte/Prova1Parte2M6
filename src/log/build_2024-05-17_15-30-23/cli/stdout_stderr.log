@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/cli/cli.egg-info
+writing ../build/cli/cli.egg-info/PKG-INFO
+writing dependency_links to ../build/cli/cli.egg-info/dependency_links.txt
+writing entry points to ../build/cli/cli.egg-info/entry_points.txt
+writing requirements to ../build/cli/cli.egg-info/requires.txt
+writing top-level names to ../build/cli/cli.egg-info/top_level.txt
+writing manifest file '../build/cli/cli.egg-info/SOURCES.txt'
+reading manifest file '../build/cli/cli.egg-info/SOURCES.txt'
+writing manifest file '../build/cli/cli.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/caccioro/Documents/prova/src/build/cli/build
+creating /home/caccioro/Documents/prova/src/build/cli/build/lib
+creating /home/caccioro/Documents/prova/src/build/cli/build/lib/cli
+copying cli/__init__.py -> /home/caccioro/Documents/prova/src/build/cli/build/lib/cli
+copying cli/cli.py -> /home/caccioro/Documents/prova/src/build/cli/build/lib/cli
+running install
+running install_lib
+creating /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli
+copying /home/caccioro/Documents/prova/src/build/cli/build/lib/cli/__init__.py -> /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli
+copying /home/caccioro/Documents/prova/src/build/cli/build/lib/cli/cli.py -> /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli
+byte-compiling /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli/cli.py to cli.cpython-310.pyc
+running install_data
+creating /home/caccioro/Documents/prova/src/install/cli/share/ament_index
+creating /home/caccioro/Documents/prova/src/install/cli/share/ament_index/resource_index
+creating /home/caccioro/Documents/prova/src/install/cli/share/ament_index/resource_index/packages
+copying resource/cli -> /home/caccioro/Documents/prova/src/install/cli/share/ament_index/resource_index/packages
+copying package.xml -> /home/caccioro/Documents/prova/src/install/cli/share/cli
+running install_egg_info
+Copying ../build/cli/cli.egg-info to /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cli script to /home/caccioro/Documents/prova/src/install/cli/lib/cli
+writing list of installed files to '/home/caccioro/Documents/prova/src/build/cli/install.log'

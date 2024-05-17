@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/prova/prova.egg-info
+writing ../build/prova/prova.egg-info/PKG-INFO
+writing dependency_links to ../build/prova/prova.egg-info/dependency_links.txt
+writing entry points to ../build/prova/prova.egg-info/entry_points.txt
+writing requirements to ../build/prova/prova.egg-info/requires.txt
+writing top-level names to ../build/prova/prova.egg-info/top_level.txt
+writing manifest file '../build/prova/prova.egg-info/SOURCES.txt'
+reading manifest file '../build/prova/prova.egg-info/SOURCES.txt'
+writing manifest file '../build/prova/prova.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/caccioro/Documents/prova/src/build/prova/build
+creating /home/caccioro/Documents/prova/src/build/prova/build/lib
+creating /home/caccioro/Documents/prova/src/build/prova/build/lib/prova
+copying prova/__init__.py -> /home/caccioro/Documents/prova/src/build/prova/build/lib/prova
+running install
+running install_lib
+creating /home/caccioro/Documents/prova/src/install/prova/lib/python3.10/site-packages/prova
+copying /home/caccioro/Documents/prova/src/build/prova/build/lib/prova/__init__.py -> /home/caccioro/Documents/prova/src/install/prova/lib/python3.10/site-packages/prova
+byte-compiling /home/caccioro/Documents/prova/src/install/prova/lib/python3.10/site-packages/prova/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/caccioro/Documents/prova/src/install/prova/share/ament_index
+creating /home/caccioro/Documents/prova/src/install/prova/share/ament_index/resource_index
+creating /home/caccioro/Documents/prova/src/install/prova/share/ament_index/resource_index/packages
+copying resource/prova -> /home/caccioro/Documents/prova/src/install/prova/share/ament_index/resource_index/packages
+copying package.xml -> /home/caccioro/Documents/prova/src/install/prova/share/prova
+running install_egg_info
+Copying ../build/prova/prova.egg-info to /home/caccioro/Documents/prova/src/install/prova/lib/python3.10/site-packages/prova-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/caccioro/Documents/prova/src/build/prova/install.log'

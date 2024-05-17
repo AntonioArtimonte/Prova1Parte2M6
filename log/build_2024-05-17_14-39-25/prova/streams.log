@@ -1,0 +1,24 @@
+[1.317s] Invoking command in '/home/caccioro/Documents/prova/src/prova': PYTHONPATH=/home/caccioro/Documents/prova/build/prova/prefix_override:/home/caccioro/Documents/prova/install/prova/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prova build --build-base /home/caccioro/Documents/prova/build/prova/build install --record /home/caccioro/Documents/prova/build/prova/install.log --single-version-externally-managed install_data
+[1.565s] running egg_info
+[1.566s] writing ../../build/prova/prova.egg-info/PKG-INFO
+[1.566s] writing dependency_links to ../../build/prova/prova.egg-info/dependency_links.txt
+[1.566s] writing entry points to ../../build/prova/prova.egg-info/entry_points.txt
+[1.567s] writing requirements to ../../build/prova/prova.egg-info/requires.txt
+[1.567s] writing top-level names to ../../build/prova/prova.egg-info/top_level.txt
+[1.570s] reading manifest file '../../build/prova/prova.egg-info/SOURCES.txt'
+[1.573s] writing manifest file '../../build/prova/prova.egg-info/SOURCES.txt'
+[1.573s] running build
+[1.573s] running build_py
+[1.573s] copying prova/draw.py -> /home/caccioro/Documents/prova/build/prova/build/lib/prova
+[1.574s] running install
+[1.574s] running install_lib
+[1.575s] copying /home/caccioro/Documents/prova/build/prova/build/lib/prova/draw.py -> /home/caccioro/Documents/prova/install/prova/lib/python3.10/site-packages/prova
+[1.576s] byte-compiling /home/caccioro/Documents/prova/install/prova/lib/python3.10/site-packages/prova/draw.py to draw.cpython-310.pyc
+[1.578s] running install_data
+[1.578s] running install_egg_info
+[1.580s] removing '/home/caccioro/Documents/prova/install/prova/lib/python3.10/site-packages/prova-0.0.0-py3.10.egg-info' (and everything under it)
+[1.581s] Copying ../../build/prova/prova.egg-info to /home/caccioro/Documents/prova/install/prova/lib/python3.10/site-packages/prova-0.0.0-py3.10.egg-info
+[1.582s] running install_scripts
+[1.601s] Installing prova script to /home/caccioro/Documents/prova/install/prova/lib/prova
+[1.602s] writing list of installed files to '/home/caccioro/Documents/prova/build/prova/install.log'
+[1.627s] Invoked command in '/home/caccioro/Documents/prova/src/prova' returned '0': PYTHONPATH=/home/caccioro/Documents/prova/build/prova/prefix_override:/home/caccioro/Documents/prova/install/prova/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prova build --build-base /home/caccioro/Documents/prova/build/prova/build install --record /home/caccioro/Documents/prova/build/prova/install.log --single-version-externally-managed install_data

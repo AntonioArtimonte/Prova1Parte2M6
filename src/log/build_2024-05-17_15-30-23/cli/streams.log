@@ -1,0 +1,37 @@
+[1.036s] Invoking command in '/home/caccioro/Documents/prova/src/cli': PYTHONPATH=/home/caccioro/Documents/prova/src/build/cli/prefix_override:/home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cli build --build-base /home/caccioro/Documents/prova/src/build/cli/build install --record /home/caccioro/Documents/prova/src/build/cli/install.log --single-version-externally-managed install_data
+[1.306s] running egg_info
+[1.307s] creating ../build/cli/cli.egg-info
+[1.307s] writing ../build/cli/cli.egg-info/PKG-INFO
+[1.307s] writing dependency_links to ../build/cli/cli.egg-info/dependency_links.txt
+[1.308s] writing entry points to ../build/cli/cli.egg-info/entry_points.txt
+[1.308s] writing requirements to ../build/cli/cli.egg-info/requires.txt
+[1.308s] writing top-level names to ../build/cli/cli.egg-info/top_level.txt
+[1.308s] writing manifest file '../build/cli/cli.egg-info/SOURCES.txt'
+[1.311s] reading manifest file '../build/cli/cli.egg-info/SOURCES.txt'
+[1.313s] writing manifest file '../build/cli/cli.egg-info/SOURCES.txt'
+[1.313s] running build
+[1.313s] running build_py
+[1.313s] creating /home/caccioro/Documents/prova/src/build/cli/build
+[1.314s] creating /home/caccioro/Documents/prova/src/build/cli/build/lib
+[1.314s] creating /home/caccioro/Documents/prova/src/build/cli/build/lib/cli
+[1.314s] copying cli/__init__.py -> /home/caccioro/Documents/prova/src/build/cli/build/lib/cli
+[1.314s] copying cli/cli.py -> /home/caccioro/Documents/prova/src/build/cli/build/lib/cli
+[1.314s] running install
+[1.314s] running install_lib
+[1.315s] creating /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli
+[1.315s] copying /home/caccioro/Documents/prova/src/build/cli/build/lib/cli/__init__.py -> /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli
+[1.316s] copying /home/caccioro/Documents/prova/src/build/cli/build/lib/cli/cli.py -> /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli
+[1.316s] byte-compiling /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli/__init__.py to __init__.cpython-310.pyc
+[1.317s] byte-compiling /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli/cli.py to cli.cpython-310.pyc
+[1.317s] running install_data
+[1.317s] creating /home/caccioro/Documents/prova/src/install/cli/share/ament_index
+[1.318s] creating /home/caccioro/Documents/prova/src/install/cli/share/ament_index/resource_index
+[1.318s] creating /home/caccioro/Documents/prova/src/install/cli/share/ament_index/resource_index/packages
+[1.318s] copying resource/cli -> /home/caccioro/Documents/prova/src/install/cli/share/ament_index/resource_index/packages
+[1.318s] copying package.xml -> /home/caccioro/Documents/prova/src/install/cli/share/cli
+[1.318s] running install_egg_info
+[1.320s] Copying ../build/cli/cli.egg-info to /home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages/cli-0.0.0-py3.10.egg-info
+[1.321s] running install_scripts
+[1.347s] Installing cli script to /home/caccioro/Documents/prova/src/install/cli/lib/cli
+[1.348s] writing list of installed files to '/home/caccioro/Documents/prova/src/build/cli/install.log'
+[1.384s] Invoked command in '/home/caccioro/Documents/prova/src/cli' returned '0': PYTHONPATH=/home/caccioro/Documents/prova/src/build/cli/prefix_override:/home/caccioro/Documents/prova/src/install/cli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cli build --build-base /home/caccioro/Documents/prova/src/build/cli/build install --record /home/caccioro/Documents/prova/src/build/cli/install.log --single-version-externally-managed install_data

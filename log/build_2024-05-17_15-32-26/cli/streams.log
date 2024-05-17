@@ -1,0 +1,21 @@
+[0.978s] Invoking command in '/home/caccioro/Documents/prova/src/cli': PYTHONPATH=/home/caccioro/Documents/prova/build/cli/prefix_override:/home/caccioro/Documents/prova/install/cli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cli build --build-base /home/caccioro/Documents/prova/build/cli/build install --record /home/caccioro/Documents/prova/build/cli/install.log --single-version-externally-managed install_data
+[1.244s] running egg_info
+[1.245s] writing ../../build/cli/cli.egg-info/PKG-INFO
+[1.248s] writing dependency_links to ../../build/cli/cli.egg-info/dependency_links.txt
+[1.248s] writing entry points to ../../build/cli/cli.egg-info/entry_points.txt
+[1.249s] writing requirements to ../../build/cli/cli.egg-info/requires.txt
+[1.250s] writing top-level names to ../../build/cli/cli.egg-info/top_level.txt
+[1.254s] reading manifest file '../../build/cli/cli.egg-info/SOURCES.txt'
+[1.256s] writing manifest file '../../build/cli/cli.egg-info/SOURCES.txt'
+[1.256s] running build
+[1.256s] running build_py
+[1.256s] running install
+[1.257s] running install_lib
+[1.258s] running install_data
+[1.259s] running install_egg_info
+[1.261s] removing '/home/caccioro/Documents/prova/install/cli/lib/python3.10/site-packages/cli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.262s] Copying ../../build/cli/cli.egg-info to /home/caccioro/Documents/prova/install/cli/lib/python3.10/site-packages/cli-0.0.0-py3.10.egg-info
+[1.271s] running install_scripts
+[1.291s] Installing cli script to /home/caccioro/Documents/prova/install/cli/lib/cli
+[1.292s] writing list of installed files to '/home/caccioro/Documents/prova/build/cli/install.log'
+[1.329s] Invoked command in '/home/caccioro/Documents/prova/src/cli' returned '0': PYTHONPATH=/home/caccioro/Documents/prova/build/cli/prefix_override:/home/caccioro/Documents/prova/install/cli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cli build --build-base /home/caccioro/Documents/prova/build/cli/build install --record /home/caccioro/Documents/prova/build/cli/install.log --single-version-externally-managed install_data

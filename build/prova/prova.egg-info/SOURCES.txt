@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/prova/prova.egg-info/PKG-INFO
+../../build/prova/prova.egg-info/SOURCES.txt
+../../build/prova/prova.egg-info/dependency_links.txt
+../../build/prova/prova.egg-info/entry_points.txt
+../../build/prova/prova.egg-info/requires.txt
+../../build/prova/prova.egg-info/top_level.txt
+../../build/prova/prova.egg-info/zip-safe
+prova/__init__.py
+prova/draw.py
+resource/prova
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
