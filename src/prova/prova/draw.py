@@ -87,12 +87,12 @@ class DriverNode(Node):
                     msg.linear.y = 0.0
                     self.publisher_.publish(msg)
                     self.dq.clear()
-
         else:
             msg = Twist()
             msg.linear.x = 0.0
             msg.linear.y = 0.0
             self.publisher_.publish(msg)
+        rclpy.spin_once(self)
 
     # Método para setar as configurações iniciais da caneta
     def set_initial_pen_settings(self):
