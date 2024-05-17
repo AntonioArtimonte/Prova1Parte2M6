@@ -65,7 +65,7 @@ class DriverNode(Node):
     def setup_turtle_controls(self):
         self.publisher_ = self.create_publisher(Twist, f'/{self.turtle_name}/cmd_vel', 10)
         self.pen_client = self.create_client(SetPen, f'/{self.turtle_name}/set_pen')
-        self.timer = self.create_timer(1, self.timer_callback)
+        #self.timer = self.create_timer(1, self.timer_callback)
         self.set_initial_pen_settings()
 
 
@@ -75,6 +75,7 @@ class DriverNode(Node):
             for i in range(len(msg.data)):
                 self.dq.append(msg.data[i])
                 print(len(self.dq))
+                print(msg.data)
                 if len(self.dq) == 3:          
                     msg = Twist()
                     msg.linear.x = float(self.dq[0])
@@ -82,11 +83,11 @@ class DriverNode(Node):
                     time_take = float(self.dq[2])
                     self.publisher_.publish(msg)
                     time.sleep(time_take)
-                    self.dq.clear()
-                    print(self.dq)
                     msg.linear.x = 0.0
                     msg.linear.y = 0.0
                     self.publisher_.publish(msg)
+                    self.dq.clear()
+
         else:
             msg = Twist()
             msg.linear.x = 0.0
