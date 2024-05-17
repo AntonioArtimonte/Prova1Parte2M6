@@ -27,7 +27,7 @@ ros2 run turtlesim turtlesim_node
 ros2 run prova prova
 ```
 
-7. Rodar a CLI
+7. Rodar a CLI OBS(sem as virgulas)
 ```bash
 ros2 run cli cli VALORX, VALORY, TEMPO
 ```
